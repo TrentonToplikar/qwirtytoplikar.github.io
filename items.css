@@ -1,0 +1,48 @@
+.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Open Sans;
+    align-items:flex-start;
+    flex-grow: 1;
+}
+.item {
+    flex-basis: 10px;
+    flex: 1 0;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 5px -2px black;
+}
+.item-name {
+    background-color: rgb(84, 53, 222);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 1em;
+    color: rgb(230, 227, 227);
+}
+.add-item {
+    background-color: rgb(37, 14, 107);
+    border-radius: 50%;
+}
+.fact-line {
+    background-color: rgb(84, 53, 222);
+    padding: 5px;
+    padding-left: 10px;
+}
+.item-description {
+    padding: 5px;
+    padding-left: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .item {
+      font-size: 1.2rem;
+      flex-basis: 100%;
+      flex-direction: column;
+    }
+  }
+/*Module 2 in Qwirty Step 2!! You still have module 3 to do for header.html and header.css*/

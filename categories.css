@@ -1,0 +1,28 @@
+.categories {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 256px;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    /*I dont like Dosis, because it is not similar to the website*/
+    font-family: Dosis;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    background-color: rgb(57, 57, 162);
+    height: 50px;
+    color: white;
+    
+}
+a:hover {
+    background-color: rgb(12, 12, 104);
+    box-shadow: 0 2px 5px -2px black;
+}
